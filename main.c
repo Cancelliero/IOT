@@ -16,7 +16,7 @@ int main(void) {
         float voltage =raw * conversion;
         float temperature = 27 - (voltage - 0.706)/0.001721;
         printf("Temperatura: %f °C\n", temperature);
-        sleep_ms(1000);
+        sleep_ms(500);
     }
 
     return 0;
